@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.8a8bdd62.css",
-    "main.js": "/static/js/main.2f10c675.js",
-    "static/js/453.45c1f122.chunk.js": "/static/js/453.45c1f122.chunk.js",
-    "index.html": "/index.html",
-    "main.8a8bdd62.css.map": "/static/css/main.8a8bdd62.css.map",
-    "main.2f10c675.js.map": "/static/js/main.2f10c675.js.map",
-    "453.45c1f122.chunk.js.map": "/static/js/453.45c1f122.chunk.js.map"
+    "main.css": "/melissa-dunn-portfolio/static/css/main.8a8bdd62.css",
+    "main.js": "/melissa-dunn-portfolio/static/js/main.209eff02.js",
+    "static/js/453.45c1f122.chunk.js": "/melissa-dunn-portfolio/static/js/453.45c1f122.chunk.js",
+    "index.html": "/melissa-dunn-portfolio/index.html",
+    "main.8a8bdd62.css.map": "/melissa-dunn-portfolio/static/css/main.8a8bdd62.css.map",
+    "main.209eff02.js.map": "/melissa-dunn-portfolio/static/js/main.209eff02.js.map",
+    "453.45c1f122.chunk.js.map": "/melissa-dunn-portfolio/static/js/453.45c1f122.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8a8bdd62.css",
-    "static/js/main.2f10c675.js"
+    "static/js/main.209eff02.js"
   ]
 }
