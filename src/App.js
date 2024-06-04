@@ -1,20 +1,20 @@
-import logo from './logo.svg';
+// src/App.js
+import React from 'react';
 import './App.css';
+import Header from './components/Header';
+import About from './components/About';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <div>
-        Melissa Dunn's Portfolio in Progress...
-
-        Come back later or shoot her an email :)
-        </div>
-        <br></br>
-        <div>
-          melissadunncareers@gmail.com
-        </div>
-      </header>
+      <Header />
+      <main>
+        <About />
+        <Projects />
+        <Contact />
+      </main>
     </div>
   );
 }
