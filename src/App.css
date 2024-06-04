@@ -1,38 +1,60 @@
+/* src/App.css */
 .App {
+  font-family: Arial, sans-serif;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* src/components/Header.css */
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header h1 {
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* src/components/About.css */
+#about {
+  padding: 2rem;
+}
+
+/* src/components/Projects.css */
+#projects {
+  padding: 2rem;
+}
+
+.project-list {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+.project {
+  border: 1px solid #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  flex: 1 1 calc(33% - 2rem);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* src/components/Contact.css */
+#contact {
+  padding: 2rem;
 }
