@@ -4,15 +4,41 @@ const Projects = () => {
   return (
     <section id="projects">
       <h2>Projects</h2>
-      <div className="project-list">
-        <h3>Ruby Projects</h3>
-        <div className="project">
+        <div>
+          <h3>Ruby</h3>
+          <div className="project-list">
+            <div className="project">
+            </div>
+          </div>
         </div>
-        <h3>React Projects</h3>
-        <div className="project">
+        <div>
+          <h3>React</h3>
+          <div className="project-list">
+            <div className="project">
+            </div>
+          </div>
         </div>
-        {/* Add more projects as needed */}
-      </div>
+        <div>
+          <h3>Python</h3>
+          <div className="project-list">
+            <div className="project">
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3>Java</h3>
+          <div className="project-list">
+            <div className="project">
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3>HTML/CSS</h3>
+          <div className="project-list">
+            <div className="project">
+            </div>
+          </div>
+        </div>
     </section>
   );
 };
