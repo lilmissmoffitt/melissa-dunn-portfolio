@@ -1,0 +1,12 @@
+.thumbnail {
+  width: 150px;
+  height: 300px;
+  padding: 10px;
+  margin: 10px;
+  animation: slideIn 3s ease-in forwards;
+  background-color: white;
+}
+
+.thumbnail:hover {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}

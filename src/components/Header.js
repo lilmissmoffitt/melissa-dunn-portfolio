@@ -1,17 +1,24 @@
-// import './Header.css';
+import React from 'react';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import '../assets/stylesheets/Header.css';
 
 const Header = () => {
   return (
-    <header>
-      <h1>Melissa Dunn's Portfolio</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+    <div className="header-container">
+      <Navbar expand="sm" bg="dark" fixed="top" variant="dark">
+        <Navbar.Brand href="#home" style={{paddingLeft: "20px"}}>Melissa Dunn's Portfolio</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav" style={{justifyContent: "right", paddingRight: "20px"}}>
+          <Nav className="ml-auto">
+            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#projects">Projects</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+      <div className="rainbow-strip" />
+    </div>
   );
 };
 

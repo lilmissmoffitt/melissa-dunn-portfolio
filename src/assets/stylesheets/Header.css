@@ -1,0 +1,13 @@
+.rainbow-strip {
+	background: linear-gradient(to right, rgb(204, 130, 238),rgb(120, 98, 246), rgb(52, 248, 255), rgb(71, 253, 159), rgb(255, 178, 34) );
+	opacity: 0.9;
+	position: fixed;
+	z-index: 1;
+  width: 100%;
+}
+
+.header-container {
+  color: white;
+  padding: 20px;
+}
+

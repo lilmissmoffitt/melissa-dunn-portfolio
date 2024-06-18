@@ -4,37 +4,51 @@
   text-align: center;
   margin: 0;
   padding: 0;
+  color:#413F49;
 }
 
-/* src/components/Header.css */
-header {
-  background: #333;
-  color: #fff;
-  padding: 1rem;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%); /* Start position off the screen on the left */
+    opacity: 0; /* Start with opacity 0 */
+  }
+  100% {
+    transform: translateX(0); /* End position, fully visible */
+    opacity: 1; /* End with opacity 1 */
+  }
 }
 
 header h1 {
   margin: 0;
 }
 
-header nav ul {
+nav ul {
   list-style: none;
   padding: 0;
 }
 
-header nav ul li {
+nav ul li {
   display: inline;
   margin: 0 1rem;
 }
 
-header nav ul li a {
+nav ul li a {
   color: #fff;
   text-decoration: none;
 }
 
 /* src/components/About.css */
 #about {
-  padding: 2rem;
+  padding: 4rem;
 }
 
 /* src/components/Projects.css */
@@ -57,4 +71,11 @@ header nav ul li a {
 /* src/components/Contact.css */
 #contact {
   padding: 2rem;
+  background-color: #413F49;
+  color: white;
+  text-align: start;
+}
+
+.container {
+  padding: 10%;
 }
