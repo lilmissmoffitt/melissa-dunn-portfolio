@@ -1,15 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.8a8bdd62.css",
-    "main.js": "/static/js/main.2f10c675.js",
+    "main.css": "/static/css/main.81178729.css",
+    "main.js": "/static/js/main.c32859be.js",
     "static/js/453.45c1f122.chunk.js": "/static/js/453.45c1f122.chunk.js",
+    "static/media/ProfilePic.png": "/static/media/ProfilePic.1fe61104aa9b4fffe5d8.png",
+    "static/media/movieNight.png": "/static/media/movieNight.ce28354100f24c81b17c.png",
+    "static/media/sneffels.jpg": "/static/media/sneffels.b6ad939e1d37df87f877.jpg",
+    "static/media/munchiesMelons.png": "/static/media/munchiesMelons.2152f328174109185d62.png",
+    "static/media/rails.png": "/static/media/rails.af67c00fc3e4d2ef7d7d.png",
+    "static/media/psql.png": "/static/media/psql.fb36635845e541b00c42.png",
+    "static/media/aws.png": "/static/media/aws.c22e7714f4ae999f2883.png",
+    "static/media/react.png": "/static/media/react.a78057c7473cf64cec0d.png",
+    "static/media/betterTimes.png": "/static/media/betterTimes.f31e8cadf5898e37859c.png",
+    "static/media/js.png": "/static/media/js.e201dcab1d16a605ce28.png",
     "index.html": "/index.html",
-    "main.8a8bdd62.css.map": "/static/css/main.8a8bdd62.css.map",
-    "main.2f10c675.js.map": "/static/js/main.2f10c675.js.map",
+    "main.81178729.css.map": "/static/css/main.81178729.css.map",
+    "main.c32859be.js.map": "/static/js/main.c32859be.js.map",
     "453.45c1f122.chunk.js.map": "/static/js/453.45c1f122.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a8bdd62.css",
-    "static/js/main.2f10c675.js"
+    "static/css/main.81178729.css",
+    "static/js/main.c32859be.js"
   ]
 }
