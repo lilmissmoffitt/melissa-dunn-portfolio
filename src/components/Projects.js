@@ -8,6 +8,11 @@ const Projects = () => {
     <section id="projects" style={{backgroundColor: "#AFA8AB", color: "white"}}>
         <h2>Projects</h2>
         <p>Please reach out directly to see my personal coding projects.</p>
+
+        <a className="custom-link" href="https://lilmissmoffitt.github.io/sudoku/views/index.html"target="_blank"
+        rel="noopener noreferrer">
+          <h4>Sudoku</h4>
+        </a>
         <hr/>
       <div>
         <h3>Figma Designs</h3>

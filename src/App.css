@@ -1,4 +1,24 @@
-/* src/App.css */
+.custom-link {
+  color: #AEC8E1 !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+}
+
+.custom-link:hover,
+p .custom-link:hover {
+  color: #4b8ac1 !important;
+  text-decoration: underline !important;
+}
+
+.custom-link:visited {
+  color: #AEC8E1 !important;
+  text-decoration: none !important;
+}
+
+a h4 {
+  font-weight: bold;
+}
+
 .App {
   font-family: Arial, sans-serif;
   text-align: center;
