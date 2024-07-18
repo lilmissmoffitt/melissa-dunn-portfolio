@@ -11,7 +11,7 @@ const Projects = () => {
 
         <a className="custom-link" href="https://lilmissmoffitt.github.io/sudoku/views/index.html"target="_blank"
         rel="noopener noreferrer">
-          <h4>Sudoku</h4>
+          <h4>Sudoku - First CSS/HTML/JS project 2019</h4>
         </a>
         <hr/>
       <div>
