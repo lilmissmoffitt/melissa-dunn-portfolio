@@ -5,7 +5,7 @@ import sneffelsPic from '../assets/images/sneffels.jpg'
 const About = () => {
   return (
     <div>
-      <div style={{ backgroundImage: `url(${sneffelsPic})`, height: "400px"}}>
+      <div className="background-img" style={{ backgroundImage: `url(${sneffelsPic})`, height: "400px"}}>
       </div>
       <section id="about" style={{backgroundColor: "#8AACD9", color: "white"}}>
         <div className="profile-container">
